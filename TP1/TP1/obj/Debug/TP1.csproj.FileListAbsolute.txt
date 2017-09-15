@@ -1,0 +1,8 @@
+C:\Users\Tanya\Documents\LABORATORIO 2\TP1\TP1\bin\Debug\TP1.exe.config
+C:\Users\Tanya\Documents\LABORATORIO 2\TP1\TP1\bin\Debug\TP1.exe
+C:\Users\Tanya\Documents\LABORATORIO 2\TP1\TP1\bin\Debug\TP1.pdb
+C:\Users\Tanya\Documents\LABORATORIO 2\TP1\TP1\obj\Debug\TP1.csprojResolveAssemblyReference.cache
+C:\Users\Tanya\Documents\LABORATORIO 2\TP1\TP1\obj\Debug\TP1.FrmCalculadora.resources
+C:\Users\Tanya\Documents\LABORATORIO 2\TP1\TP1\obj\Debug\TP1.csproj.GenerateResource.Cache
+C:\Users\Tanya\Documents\LABORATORIO 2\TP1\TP1\obj\Debug\TP1.exe
+C:\Users\Tanya\Documents\LABORATORIO 2\TP1\TP1\obj\Debug\TP1.pdb
