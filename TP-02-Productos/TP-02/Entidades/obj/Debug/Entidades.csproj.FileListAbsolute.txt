@@ -1,0 +1,16 @@
+D:\Federico\VB .Net\Visual C#\utn\TP-02\Entidades\bin\Debug\Entidades.dll
+D:\Federico\VB .Net\Visual C#\utn\TP-02\Entidades\bin\Debug\Entidades.pdb
+D:\Federico\VB .Net\Visual C#\utn\TP-02\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+D:\Federico\VB .Net\Visual C#\utn\TP-02\Entidades\obj\Debug\Entidades.dll
+D:\Federico\VB .Net\Visual C#\utn\TP-02\Entidades\obj\Debug\Entidades.pdb
+D:\VisualStudio\Federico Dávila\TP-02\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+D:\VisualStudio\Federico Dávila\TP-02\Entidades\obj\Debug\Entidades.dll
+D:\VisualStudio\Federico Dávila\TP-02\Entidades\obj\Debug\Entidades.pdb
+D:\VisualStudio\Federico Dávila\TP-02\Entidades\bin\Debug\Entidades.dll
+D:\VisualStudio\Federico Dávila\TP-02\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Tanya\Documents\LABORATORIO 2\TP-02-Productos\TP-02\Entidades\bin\Debug\Entidades.dll
+C:\Users\Tanya\Documents\LABORATORIO 2\TP-02-Productos\TP-02\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Tanya\Documents\LABORATORIO 2\TP-02-Productos\TP-02\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+C:\Users\Tanya\Documents\LABORATORIO 2\TP-02-Productos\TP-02\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Tanya\Documents\LABORATORIO 2\TP-02-Productos\TP-02\Entidades\obj\Debug\Entidades.dll
+C:\Users\Tanya\Documents\LABORATORIO 2\TP-02-Productos\TP-02\Entidades\obj\Debug\Entidades.pdb
