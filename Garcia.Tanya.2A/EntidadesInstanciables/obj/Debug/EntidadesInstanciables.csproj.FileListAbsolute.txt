@@ -1,0 +1,10 @@
+C:\Users\Tanya\Desktop\tp_laboratorio2\Garcia.Tanya.2A\EntidadesInstanciables\bin\Debug\EntidadesInstanciables.dll
+C:\Users\Tanya\Desktop\tp_laboratorio2\Garcia.Tanya.2A\EntidadesInstanciables\bin\Debug\EntidadesInstanciables.pdb
+C:\Users\Tanya\Desktop\tp_laboratorio2\Garcia.Tanya.2A\EntidadesInstanciables\bin\Debug\EntidadesAbstractas.dll
+C:\Users\Tanya\Desktop\tp_laboratorio2\Garcia.Tanya.2A\EntidadesInstanciables\bin\Debug\Excepciones.dll
+C:\Users\Tanya\Desktop\tp_laboratorio2\Garcia.Tanya.2A\EntidadesInstanciables\bin\Debug\EntidadesAbstractas.pdb
+C:\Users\Tanya\Desktop\tp_laboratorio2\Garcia.Tanya.2A\EntidadesInstanciables\bin\Debug\Excepciones.pdb
+C:\Users\Tanya\Desktop\tp_laboratorio2\Garcia.Tanya.2A\EntidadesInstanciables\obj\Debug\EntidadesInstanciables.csprojResolveAssemblyReference.cache
+C:\Users\Tanya\Desktop\tp_laboratorio2\Garcia.Tanya.2A\EntidadesInstanciables\obj\Debug\EntidadesInstanciables.csproj.CoreCompileInputs.cache
+C:\Users\Tanya\Desktop\tp_laboratorio2\Garcia.Tanya.2A\EntidadesInstanciables\obj\Debug\EntidadesInstanciables.dll
+C:\Users\Tanya\Desktop\tp_laboratorio2\Garcia.Tanya.2A\EntidadesInstanciables\obj\Debug\EntidadesInstanciables.pdb

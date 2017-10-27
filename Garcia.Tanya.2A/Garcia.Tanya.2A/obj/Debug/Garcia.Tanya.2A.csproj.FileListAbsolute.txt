@@ -1,0 +1,13 @@
+C:\Users\Tanya\Desktop\tp_laboratorio2\Garcia.Tanya.2A\Garcia.Tanya.2A\bin\Debug\Garcia.Tanya.2A.exe.config
+C:\Users\Tanya\Desktop\tp_laboratorio2\Garcia.Tanya.2A\Garcia.Tanya.2A\bin\Debug\Garcia.Tanya.2A.exe
+C:\Users\Tanya\Desktop\tp_laboratorio2\Garcia.Tanya.2A\Garcia.Tanya.2A\bin\Debug\Garcia.Tanya.2A.pdb
+C:\Users\Tanya\Desktop\tp_laboratorio2\Garcia.Tanya.2A\Garcia.Tanya.2A\bin\Debug\EntidadesAbstractas.dll
+C:\Users\Tanya\Desktop\tp_laboratorio2\Garcia.Tanya.2A\Garcia.Tanya.2A\bin\Debug\EntidadesInstanciables.dll
+C:\Users\Tanya\Desktop\tp_laboratorio2\Garcia.Tanya.2A\Garcia.Tanya.2A\bin\Debug\Excepciones.dll
+C:\Users\Tanya\Desktop\tp_laboratorio2\Garcia.Tanya.2A\Garcia.Tanya.2A\bin\Debug\EntidadesAbstractas.pdb
+C:\Users\Tanya\Desktop\tp_laboratorio2\Garcia.Tanya.2A\Garcia.Tanya.2A\bin\Debug\EntidadesInstanciables.pdb
+C:\Users\Tanya\Desktop\tp_laboratorio2\Garcia.Tanya.2A\Garcia.Tanya.2A\bin\Debug\Excepciones.pdb
+C:\Users\Tanya\Desktop\tp_laboratorio2\Garcia.Tanya.2A\Garcia.Tanya.2A\obj\Debug\Garcia.Tanya.2A.csprojResolveAssemblyReference.cache
+C:\Users\Tanya\Desktop\tp_laboratorio2\Garcia.Tanya.2A\Garcia.Tanya.2A\obj\Debug\Garcia.Tanya.2A.csproj.CoreCompileInputs.cache
+C:\Users\Tanya\Desktop\tp_laboratorio2\Garcia.Tanya.2A\Garcia.Tanya.2A\obj\Debug\Garcia.Tanya.2A.exe
+C:\Users\Tanya\Desktop\tp_laboratorio2\Garcia.Tanya.2A\Garcia.Tanya.2A\obj\Debug\Garcia.Tanya.2A.pdb

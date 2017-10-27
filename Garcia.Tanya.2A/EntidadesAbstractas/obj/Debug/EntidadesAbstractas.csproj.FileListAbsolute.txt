@@ -1,0 +1,8 @@
+C:\Users\Tanya\Desktop\tp_laboratorio2\Garcia.Tanya.2A\EntidadesAbstractas\bin\Debug\EntidadesAbstractas.dll
+C:\Users\Tanya\Desktop\tp_laboratorio2\Garcia.Tanya.2A\EntidadesAbstractas\bin\Debug\EntidadesAbstractas.pdb
+C:\Users\Tanya\Desktop\tp_laboratorio2\Garcia.Tanya.2A\EntidadesAbstractas\bin\Debug\Excepciones.dll
+C:\Users\Tanya\Desktop\tp_laboratorio2\Garcia.Tanya.2A\EntidadesAbstractas\bin\Debug\Excepciones.pdb
+C:\Users\Tanya\Desktop\tp_laboratorio2\Garcia.Tanya.2A\EntidadesAbstractas\obj\Debug\EntidadesAbstractas.csprojResolveAssemblyReference.cache
+C:\Users\Tanya\Desktop\tp_laboratorio2\Garcia.Tanya.2A\EntidadesAbstractas\obj\Debug\EntidadesAbstractas.csproj.CoreCompileInputs.cache
+C:\Users\Tanya\Desktop\tp_laboratorio2\Garcia.Tanya.2A\EntidadesAbstractas\obj\Debug\EntidadesAbstractas.dll
+C:\Users\Tanya\Desktop\tp_laboratorio2\Garcia.Tanya.2A\EntidadesAbstractas\obj\Debug\EntidadesAbstractas.pdb
