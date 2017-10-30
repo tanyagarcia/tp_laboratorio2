@@ -18,7 +18,7 @@ namespace EntidadesInstanciables
         /// </summary>
         static Profesor()
         {
-            _random = new Random();
+            Profesor._random = new Random();
         }
 
         /// <summary>
@@ -39,7 +39,7 @@ namespace EntidadesInstanciables
         public Profesor(int id, string nombre, string apellido, string dni, ENacionalidad nacionalidad)
             : base(id, nombre, apellido, dni, nacionalidad)
         {
-            _clasesDelDia = new Queue<Universidad.EClases>();
+            this._clasesDelDia = new Queue<Universidad.EClases>(2);
             this._randomClases();
         }
 
@@ -50,7 +50,7 @@ namespace EntidadesInstanciables
         {
             for (int i = 0; i < 2; i++)
             {
-                _clasesDelDia.Enqueue((Universidad.EClases)_random.Next(1, 4));
+                this._clasesDelDia.Enqueue((Universidad.EClases)_random.Next(1, 4));
             }
         }
 

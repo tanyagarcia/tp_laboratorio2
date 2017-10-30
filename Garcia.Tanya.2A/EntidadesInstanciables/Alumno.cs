@@ -89,8 +89,9 @@ namespace EntidadesInstanciables
         {
             StringBuilder sb = new StringBuilder();
             sb.AppendLine(base.MostrarDatos());
-            sb.AppendLine("ESTADO DE CUENTA " + this._estadoCuenta);
+            sb.AppendLine("ESTADO DE CUENTA: " + this._estadoCuenta);
             sb.AppendLine(this.ParticiparEnClase());
+            sb.AppendLine("<------------------------------------------------------------------------>");
             return sb.ToString();
         }
 

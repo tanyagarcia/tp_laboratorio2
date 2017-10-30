@@ -58,14 +58,14 @@ namespace EntidadesAbstractas
         }
 
         /// <summary>
-        /// Compara si dos universitarios son del mismo tipo y si tienen el mismo legajo
+        /// Compara si dos universitarios son del mismo tipo y si tienen el mismo legajo o DNI
         /// </summary>
         /// <param name="pg1">Universitario 1</param>
         /// <param name="pg2">Universitario 2</param>
         /// <returns>true si son iguales</returns>
         public static bool operator ==(Universitario pg1, Universitario pg2)
         {
-            if (pg1.Equals(pg2) && pg1._legajo == pg2._legajo)
+            if (pg1.Equals(pg2) && pg1._legajo == pg2._legajo || pg1.DNI == pg2.DNI)
             {
                 return true;
             }

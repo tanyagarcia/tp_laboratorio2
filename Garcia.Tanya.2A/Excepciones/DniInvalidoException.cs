@@ -13,7 +13,7 @@ namespace Excepciones
         public DniInvalidoException()
             : base()
         {
-            this.mensajeBase = "Mensaje de error: DNI INVALIDO";
+            this.mensajeBase = "DNI INVALIDO";
         }
 
         public DniInvalidoException(Exception e)

@@ -133,7 +133,7 @@ namespace EntidadesAbstractas
         {
             StringBuilder sb = new StringBuilder();
             sb.AppendFormat("NOMBRE COMPLETO: {0}, {1} ", this._nombre, this._apellido);
-            sb.AppendLine("NACIONALIDAD: " + this._nacionalidad);
+            sb.Append("NACIONALIDAD: "+ this._nacionalidad);
             return sb.ToString();
 
         }
@@ -147,14 +147,23 @@ namespace EntidadesAbstractas
 
         protected int ValidarDni(ENacionalidad nacionalidad, int dato)
         {
-            if (nacionalidad == ENacionalidad.Extranjero)
-                return dato;
-            else if (nacionalidad == ENacionalidad.Argentino && dato > 1 && dato < 89999999)
-                return dato;
-            else
+            switch(nacionalidad)
             {
-                throw new DniInvalidoException();
+                case ENacionalidad.Argentino:
+                    if (dato > 1 && dato < 89999999)
+                        return dato;
+                    else
+                        throw new DniInvalidoException();
+
+                case ENacionalidad.Extranjero:
+                    if (dato > 89999999)
+                        return dato;
+                    else
+                        throw new NacionalidadInvalidaException();
+
             }
+
+            return 0;
         }
 
         /// <summary>

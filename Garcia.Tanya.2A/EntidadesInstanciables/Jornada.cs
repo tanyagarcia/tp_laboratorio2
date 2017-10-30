@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using EntidadesAbstractas;
+using Excepciones;
 
 namespace EntidadesInstanciables
 {
@@ -100,15 +101,16 @@ namespace EntidadesInstanciables
         /// <returns></returns>
         public static bool operator ==(Jornada j, Alumno a)
         {
-            foreach (Alumno i in j._alumnos)
+            bool retorno = false;
+            for (int i = 0; i < j._alumnos.Count; i++)
             {
-                if (i == a)
+                if (j._alumnos[i].Equals(a))
                 {
-                    return true;
+                    retorno = true;
+                    break;
                 }
             }
-
-            return false;
+            return retorno;
         }
 
         /// <summary>
@@ -130,14 +132,11 @@ namespace EntidadesInstanciables
         /// <returns></returns>
         public static Jornada operator +(Jornada j, Alumno a)
         {
-            for (int i = 0; i < j._alumnos.Count; i++)
+            if (j != a)
             {
-                if (j._alumnos[i] == a)
-                    continue;
-                else
-                    j._alumnos.Add(a);
+                j._alumnos.Add(a);
             }
-
+            
             return j;
         }
 
@@ -148,8 +147,7 @@ namespace EntidadesInstanciables
         public override string ToString()
         {
             StringBuilder sb = new StringBuilder();
-            sb.AppendLine("CLASE: " + this._clase.ToString());
-            sb.AppendLine("INSTRUCTOR: " + this._instructor);
+            sb.AppendFormat("CLASE DE {0} POR {1}", this._clase.ToString(), this._instructor.ToString());
             sb.AppendLine("ALUMNOS: ");
             foreach (Alumno a in this._alumnos)
             {

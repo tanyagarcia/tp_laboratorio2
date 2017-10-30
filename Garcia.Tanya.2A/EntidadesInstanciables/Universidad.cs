@@ -11,7 +11,7 @@ namespace EntidadesInstanciables
     {
         public enum EClases
         {
-            Programacion, Laboratorio, Legislacion, SPD
+            Programacion= 1, Laboratorio, Legislacion, SPD
         }
 
         private List<Alumno> alumnos;
@@ -111,10 +111,10 @@ namespace EntidadesInstanciables
         private static string MostrarDatos(Universidad gim)
         {
             StringBuilder sb = new StringBuilder();
-            sb.AppendLine("JORNADAS: ");
-            foreach (Jornada j in gim.Jornadas)
+            sb.AppendLine("JORNADA: ");
+            for(int i=0; i<gim.jornada.Count; i++)
             {
-                sb.AppendLine(j.ToString());
+                sb.Append(gim.jornada[i].ToString());
             }
             
 
@@ -171,10 +171,12 @@ namespace EntidadesInstanciables
         /// <returns>true si esta inscripto en ella, false caso contrario</returns>
         public static bool operator ==(Universidad g, Alumno a)
         {
-            foreach (Alumno b in g.alumnos)
+            for(int i=0; i<g.Alumnos.Count; i++)
             {
-                if (b == a)
+                if(g.Alumnos[i] == a)
+                {
                     return true;
+                }
             }
 
             return false;
@@ -189,15 +191,25 @@ namespace EntidadesInstanciables
         /// <returns>true si encuentra al profesor, si no lanza excepcion</returns>
         public static Profesor operator ==(Universidad g, EClases clase)
         {
-            foreach (Profesor profesor in g.profesores)
+            Profesor auxProfesor = new Profesor();
+            bool bandera = true;
+            for(int i=0; i<g.Instructores.Count; i++)
             {
-                if (profesor == clase)
+                if (g.profesores[i] == clase)
                 {
-                    return profesor;
+                    bandera = false;
+                    auxProfesor= g.profesores[i];    
                 }
             }
 
-            throw new SinProfesorException();
+            if(bandera== true)
+            {
+                throw new SinProfesorException();
+            }
+            else
+            {
+                return auxProfesor;
+            }
         }
 
         /// <summary>
@@ -208,9 +220,9 @@ namespace EntidadesInstanciables
         /// <returns>true si da clases en esa universidad, false caso contrario</returns>
         public static bool operator ==(Universidad g, Profesor i)
         {
-            foreach (Profesor profesor in g.profesores)
+            for(int index=0; index<g.Instructores.Count; index++)
             {
-                if (profesor == i)
+                if(g.Instructores[index] == i)
                 {
                     return true;
                 }
@@ -227,13 +239,15 @@ namespace EntidadesInstanciables
         /// <returns>la universidad con el nuevo alumno o sin este en caso que ya se encontraba en ella</returns>
         public static Universidad operator +(Universidad g, Alumno a)
         {
-            foreach (Alumno b in g.alumnos)
-            {
-                if (b != a)
+           
+                if (g != a)
                 {
                     g.alumnos.Add(a);
                 }
-            }
+                else
+                {
+                    throw new AlumnoRepetidoException();
+                }
 
             return g;
         }
@@ -249,7 +263,7 @@ namespace EntidadesInstanciables
         public static Universidad operator +(Universidad g, EClases clase)
         {
             Profesor profesor = (g == clase);
-
+            
             Jornada jornada = new Jornada(clase, profesor);
             foreach (Alumno unAlumno in g.alumnos)
             {
@@ -270,13 +284,10 @@ namespace EntidadesInstanciables
         /// <returns>la universidad con el nuevo profesor o sin el en caso que ya se encontraba en ella</returns>
         public static Universidad operator +(Universidad g, Profesor i)
         {
-            foreach (Profesor p in g.profesores)
-            {
-                if (p != i)
+                if (g != i)
                 {
                     g.profesores.Add(i);
                 }
-            }
 
             return g;
         }
