@@ -1,0 +1,6 @@
+C:\Users\Tanya\source\repos\TP 3\Excepciones\bin\Debug\Excepciones.dll
+C:\Users\Tanya\source\repos\TP 3\Excepciones\bin\Debug\Excepciones.pdb
+C:\Users\Tanya\source\repos\TP 3\Excepciones\obj\Debug\Excepciones.csprojResolveAssemblyReference.cache
+C:\Users\Tanya\source\repos\TP 3\Excepciones\obj\Debug\Excepciones.csproj.CoreCompileInputs.cache
+C:\Users\Tanya\source\repos\TP 3\Excepciones\obj\Debug\Excepciones.dll
+C:\Users\Tanya\source\repos\TP 3\Excepciones\obj\Debug\Excepciones.pdb

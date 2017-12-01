@@ -1,0 +1,8 @@
+C:\Users\Tanya\source\repos\TP 3\Entidades\bin\Debug\Entidades.dll
+C:\Users\Tanya\source\repos\TP 3\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Tanya\source\repos\TP 3\Entidades\bin\Debug\Excepciones.dll
+C:\Users\Tanya\source\repos\TP 3\Entidades\bin\Debug\Excepciones.pdb
+C:\Users\Tanya\source\repos\TP 3\Entidades\obj\Debug\EntidadesaAbstractas.csprojResolveAssemblyReference.cache
+C:\Users\Tanya\source\repos\TP 3\Entidades\obj\Debug\EntidadesaAbstractas.csproj.CoreCompileInputs.cache
+C:\Users\Tanya\source\repos\TP 3\Entidades\obj\Debug\Entidades.dll
+C:\Users\Tanya\source\repos\TP 3\Entidades\obj\Debug\Entidades.pdb

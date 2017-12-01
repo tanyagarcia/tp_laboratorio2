@@ -1,0 +1,6 @@
+C:\Users\Tanya\source\repos\TP 3\Archivos\bin\Debug\Archivos.dll
+C:\Users\Tanya\source\repos\TP 3\Archivos\bin\Debug\Archivos.pdb
+C:\Users\Tanya\source\repos\TP 3\Archivos\obj\Debug\Archivos.csprojResolveAssemblyReference.cache
+C:\Users\Tanya\source\repos\TP 3\Archivos\obj\Debug\Archivos.csproj.CoreCompileInputs.cache
+C:\Users\Tanya\source\repos\TP 3\Archivos\obj\Debug\Archivos.dll
+C:\Users\Tanya\source\repos\TP 3\Archivos\obj\Debug\Archivos.pdb

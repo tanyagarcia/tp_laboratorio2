@@ -1,0 +1,12 @@
+E:\TP 1\MiCalculadora\bin\Debug\MiCalculadora.exe.config
+E:\TP 1\MiCalculadora\bin\Debug\MiCalculadora.exe
+E:\TP 1\MiCalculadora\bin\Debug\MiCalculadora.pdb
+E:\TP 1\MiCalculadora\bin\Debug\Entidades.dll
+E:\TP 1\MiCalculadora\bin\Debug\Entidades.pdb
+E:\TP 1\MiCalculadora\obj\Debug\MiCalculadora.csprojResolveAssemblyReference.cache
+E:\TP 1\MiCalculadora\obj\Debug\MiCalculadora.Form1.resources
+E:\TP 1\MiCalculadora\obj\Debug\MiCalculadora.Properties.Resources.resources
+E:\TP 1\MiCalculadora\obj\Debug\MiCalculadora.csproj.GenerateResource.Cache
+E:\TP 1\MiCalculadora\obj\Debug\MiCalculadora.csproj.CoreCompileInputs.cache
+E:\TP 1\MiCalculadora\obj\Debug\MiCalculadora.exe
+E:\TP 1\MiCalculadora\obj\Debug\MiCalculadora.pdb
